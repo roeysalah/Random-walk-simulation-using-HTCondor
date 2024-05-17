@@ -1,0 +1,7 @@
+universe = vanilla
+executable = random
+arguments = $(Process)
+output = ./output/$(Process).txt
+error = ./error/$(Process).err
+log = ./log/$(Process).log
+queue 50
